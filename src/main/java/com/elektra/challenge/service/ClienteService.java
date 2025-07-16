@@ -1,5 +1,5 @@
-import com.ejemplo.model.Cliente;
-import com.ejemplo.model.TipoCliente;
+import com.elektra.challenge.model.Cliente;
+import com.elektra.challenge.model.TipoCliente;
 import java.util.*;
 
 public class ClienteService {

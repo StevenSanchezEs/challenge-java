@@ -1,3 +1,5 @@
+import com.elektra.challenge.model.Cliente;
+import com.elektra.challenge.model.TipoCliente;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

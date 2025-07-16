@@ -1,3 +1,5 @@
+package com.elektra.challenge.model;
+
 public record Cliente(
     String id,
     String nombre,

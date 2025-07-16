@@ -1,4 +1,4 @@
-import com.ejemplo.model.*;
+import com.elektra.challenge.model.*;
 import java.util.*;
 
 public class PrestamoService {
