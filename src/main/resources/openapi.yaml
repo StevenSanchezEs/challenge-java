@@ -1,11 +1,17 @@
-openapi: "3.0.0"
+swagger: "2.0"
 info:
   title: API de Gestión
   version: "1.0.0"
+host: "localhost:8080"
+basePath: "/api"
+schemes:
+  - "http"
 paths:
   /clientes:
     get:
-      summary: Obtener todos los clientes
+      summary: "Obtener todos los clientes"
+      produces:
+        - "application/json"
       responses:
-        '200':
-          description: Lista de clientes
+        "200":
+          description: "Lista de clientes"
