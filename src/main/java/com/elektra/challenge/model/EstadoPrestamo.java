@@ -1,0 +1,1 @@
+public enum EstadoPrestamo { PENDIENTE, PAGADO }
