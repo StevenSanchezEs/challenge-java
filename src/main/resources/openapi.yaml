@@ -1,0 +1,11 @@
+openapi: "3.0.0"
+info:
+  title: API de Gestión
+  version: "1.0.0"
+paths:
+  /clientes:
+    get:
+      summary: Obtener todos los clientes
+      responses:
+        '200':
+          description: Lista de clientes
